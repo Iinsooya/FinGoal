@@ -1,0 +1,14 @@
+﻿<Window x:Class="FinGoal.UpdateAmountDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinGoal"
+        mc:Ignorable="d"
+        Title="UpdateAmountDialog" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <TextBlock Text="Введите новую сумму:" />
+        <TextBox x:Name="AmountBox" Margin="0,5"/>
+        <Button Content="OK" Click="OkButton_Click" Margin="0,10,0,0"/>
+    </StackPanel>
+</Window>
